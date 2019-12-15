@@ -1,7 +1,6 @@
 .gradient-warm {
     height: 100vh;
-    background: rgb(219,43,106) fixed #A8BFAD;;
-    background: linear-gradient(0deg, rgba(219,43,106,1) 37%, rgba(223,176,73,1) 100%) fixed #A8BFAD;;
+    background: linear-gradient(214.8deg, #FFBF75 12.91%, #FF367E 87.51%);
     background-size: cover;
 }
 
@@ -10,7 +9,7 @@
     font-family: Montserrat;
     font-style: normal;
     font-weight: 600;
-    font-size: 36px;
+    font-size: 28px;
     line-height: 44px;
 
     color: #FFFFFF;
@@ -25,7 +24,7 @@
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 23px;
 
     color: #FFFFFF;
