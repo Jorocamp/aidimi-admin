@@ -49,29 +49,11 @@
     color: #FF006B;
 }
 
-.container-svg-icon-back {
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    left: 5px;
-    top: 45px;
-}
-
-
-.container-svg-icon-up {
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    left: 173px;
-    top: 45px;
-}
 
 #img-circular-up {
-    position: absolute;
     width: 130px;
     height: 130px;
-    left: 122px;
-    top: 152px;
+;
 
     background: url(12376843_1023777191043033_6631672907787240693_n.png);
     border-radius: 85px;
