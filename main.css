@@ -7,12 +7,6 @@
 
 
 #header-user-community {
-    position: absolute;
-    width: 300px;
-    height: 83px;
-    left: 36px;
-    top: 45px;
-
     font-family: Montserrat;
     font-style: normal;
     font-weight: 600;
@@ -22,14 +16,12 @@
     color: #FFFFFF;
 }
 
+.center {
+    text-align: center;
+}
+
 
 #text-user-community {
-    position: absolute;
-    width: 299px;
-    height: 495px;
-    left: 38px;
-    top: 160px;
-
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -40,11 +32,9 @@
 }
 
 #button-user-community {
-    position: absolute;
     width: 278px;
     height: 47px;
-    left: 49px;
-    top: 723px;
+
 
     background: #FFFFFF;
     border-radius: 25px;
