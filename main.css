@@ -58,17 +58,80 @@
 
 
 .svg-icon {
-  width: 2em;
-  height: 2em;
+    width: 2em;
+    height: 2em;
 }
 
 .svg-icon path,
 .svg-icon polygon,
 .svg-icon rect {
-  fill: #000;
+    fill: #000;
 }
 
 .svg-icon circle {
-  stroke: #000;
-  stroke-width: 1;
+    stroke: #000;
+    stroke-width: 1;
 }
+
+input[type=text] {
+    border: none;
+    border-bottom: 2.5px solid #a1a1a1;
+    font-family: Roboto;
+    font-size: 16px;
+    text-align: center;
+
+    width: 350px;
+    height: 25px;
+}
+
+.text-form {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.form-radio
+{
+     -webkit-appearance: none;
+     -moz-appearance: none;
+     appearance: none;
+     display: inline-block;
+     position: relative;
+     background-color: #f1f1f1;
+     color: #666;
+     top: 10px;
+     height: 30px;
+     width: 30px;
+     border: 0;
+     border-radius: 50px;
+     cursor: pointer;     
+     margin-right: 7px;
+     outline: none;
+}
+.form-radio:checked::before
+{
+     position: absolute;
+     font: 13px/1 'Open Sans', sans-serif;
+     left: 11px;
+     top: 7px;
+     content: '\02143';
+     transform: rotate(40deg);
+}
+.form-radio:hover
+{
+     background-color: #f7f7f7;
+}
+.form-radio:checked
+{
+     background-color: #f1f1f1;
+}
+label
+{
+     font: 15px/1.7 'Open Sans', sans-serif;
+     color: #333;
+     -webkit-font-smoothing: antialiased;
+     -moz-osx-font-smoothing: grayscale;
+     cursor: pointer;
+} 
