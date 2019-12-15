@@ -84,6 +84,17 @@ input[type=text] {
     height: 25px;
 }
 
+input[type=email] {
+    border: none;
+    border-bottom: 2.5px solid #a1a1a1;
+    font-family: Roboto;
+    font-size: 16px;
+    text-align: center;
+
+    width: 350px;
+    height: 25px;
+}
+
 .text-form {
     font-family: Roboto;
     font-style: normal;
@@ -157,9 +168,5 @@ p.msg-form {
     border-radius: 30px;
     
     font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
     font-size: 20px;
-    line-height: 23px;
-    text-align: center;
 }
