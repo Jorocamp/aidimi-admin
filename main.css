@@ -367,3 +367,26 @@ textarea {
 input {
     outline: none;
 }
+
+.add-achieve-text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.add-purpose-container {
+    display: flex;
+    padding: 15px;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.header-container {
+    background-color: #ffff;
+    padding-left: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 5px 0 rgba(0, 0, 0, 0.19);
+}
