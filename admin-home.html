@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Mi comunidad</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="main.css">
+        
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3pro.css">
+
+
+    </head>
+    <body>
+        
+        <div id="id-overlay" class="overlay" onclick="closeNav()"></div>
+        <div id="mySidebar" class="sidebar" onclick="closeNav()">
+            <div class="sidebar-padding">
+                <div class="sidebar-img-container">
+                    <img class="img-circular-menu" src="media/img/adimi-logo-dark.png" alt="Profile image">
+                    <img src="media/vector/Vector_Pencil2.svg"  alt="Edit pencil">
+                </div>
+                <div >
+                    <p class="title-sidebar">Aidimi App 
+                        <img src="media/vector/Vector_Verified.svg" alt="Account verified">
+                    </p>
+                </div>
+            </div>
+            <hr>
+            <div class="sidebar-padding" style="padding-top: 0px">
+                <div class="sidebar-add-container">
+                    <p class="sidebar-green-text">Añadir mi ID</p>
+                    <img src="media/vector/Vector_Add.svg"  alt="Add ID">
+                </div>
+                <div class="sidebar-item-container">
+                    <img src="media/vector/Vector_Clock.svg"  class="sidebar-item-img" alt="Recent porpuses">
+                    <p class="sidebar-normal-text sidebar-item">Propósitos recientes</p>
+                </div>
+                <div class="sidebar-item-container">
+                    <img src="media/vector/Vector_Key.svg"  class="sidebar-item-img" alt="Our team">
+                    <p class="sidebar-normal-text sidebar-item">Nuestro equipo</p>
+                </div>
+                <div class="sidebar-item-container">
+                    <img src="media/vector/Vector_CreditCard.svg"  class="sidebar-item-img" alt="Payment">
+                    <p class="sidebar-normal-text sidebar-item">Acuerdo de pago</p>
+                </div>
+            </div>
+            <hr>
+            <div class="sidebar-padding" style="padding-top: 0px">
+                <div class="sidebar-item-container">
+                    <img src="media/vector/Vector_Lock.svg"  class="sidebar-item-img" alt="Privacy">
+                    <p class="sidebar-normal-text sidebar-item">Privacidad</p>
+                </div>
+                <div class="sidebar-item-container">
+                    <img src="media/vector/Vector_Engine.svg"  class="sidebar-item-img" alt="Config">
+                    <p class="sidebar-normal-text sidebar-item">Ajustes</p>
+                </div>
+                <div class="sidebar-item-container">
+                    <img src="media/vector/Vector_Question.svg"  class="sidebar-item-img" alt="FAQ">
+                    <p class="sidebar-normal-text sidebar-item">FAQ</p>
+                </div>
+            </div>
+            <hr>
+            <div class="sidebar-padding" style="padding-top: 0px">
+                <div class="sidebar-item-container">
+                    <img src="media/vector/Vector_Enter.svg"  class="sidebar-item-img" alt="Exit">
+                    <p class="sidebar-red-text sidebar-item">Salir</p>
+                </div>
+            </div>
+            <hr>            
+        </div>
+        
+        <div class="w3-container w3-card flex">
+            <img class="img-header" src="media/img/adimi-logo-dark.png" alt="Profile image" onclick="openNav()">
+                &nbsp;&nbsp;&nbsp;
+            <h4>Nuestra comunidad</h4>
+        </div>
+        <div class="flex" style="padding: 20px">
+            <h5>Detalla tu propósito</h5>
+        </div>       
+        
+        
+
+        
+        
+        <script>
+            function openNav() {
+                document.getElementById("mySidebar").style.width = "275px";
+                document.getElementById("id-overlay").style.width = "100%";
+
+            }
+
+            function closeNav() {
+                document.getElementById("mySidebar").style.width = "0";
+                document.getElementById("id-overlay").style.width = "0%";
+
+            }
+        </script>
+
+    </body>
+</html>
