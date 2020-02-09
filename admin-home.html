@@ -7,13 +7,47 @@
         <link rel="stylesheet" type="text/css" href="main.css">
         
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3pro.css">
-
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
     </head>
     <body class="background-gray">
         
+        <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog modal-size">
+                    <div class="sidebar-padding">
+                        <p class="modal-text">Habilidades</p>
+                        <div class="flex" style="flex-wrap: wrap">
+                            <img class="achieve-img" src="media/img/achieve-hability.png"  alt="Hability">
+                            <img class="achieve-img" src="media/img/achieve-hability.png"  alt="Hability">
+                            <img class="achieve-img" src="media/img/achieve-hability.png"  alt="Hability">
+                            <img class="achieve-img" src="media/img/achieve-hability.png"  alt="Hability">
+                            <img class="achieve-img" src="media/img/achieve-hability.png"  alt="Hability">
+                            <img class="achieve-img" src="media/img/achieve-hability.png"  alt="Hability">
+                            <img class="achieve-img" src="media/img/achieve-hability.png"  alt="Hability">
+
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="sidebar-padding">
+                        <p class="modal-text">Clientes</p>
+                        <div class="flex" style="flex-wrap: wrap">
+                            <img class="achieve-img" src="media/img/achieve-clients.png"  alt="Hability">
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="sidebar-padding">
+                        <p class="modal-text">Ambiente</p>
+                        <div class="flex" style="flex-wrap: wrap">
+                            <img class="achieve-img" src="media/img/achieve-env.png"  alt="Hability">
+                        </div>
+                    </div>
+            </div>
+        </div>
+        
         <div id="id-overlay" class="overlay" onclick="closeNav()"></div>
-        <div id="mySidebar" class="sidebar" onclick="closeNav()">
+        <div id="mySidebar" class="sidebar">
             <div class="sidebar-padding">
                 <div class="sidebar-img-container">
                     <img class="img-circular-menu" src="media/img/adimi-logo-dark.png" alt="Profile image">
@@ -81,7 +115,7 @@
         </div>
         <div class="line"></div>
         <div class="background-gray add-purpose-container">
-            <img src="media/vector/Vector_Star.svg" alt="Attachment">
+            <img src="media/vector/Vector_Star.svg" alt="Attachment" data-toggle="modal" data-target="#myModal">
             <div>
                 <p class="add-achieve-text"> Ningún logro seleccionado </p>
             </div>
