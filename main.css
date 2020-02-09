@@ -310,6 +310,7 @@ p.msg-form {
 
 .sidebar-item-container {
     display: flex;
+    align-items: baseline;
 }
 
 .sidebar-item {
@@ -343,6 +344,7 @@ p.msg-form {
     font-weight: normal;
     font-size: 16px;
     line-height: 19px;
+    vertical-align: bottom;
 }
 
 .sidebar-red-text {
@@ -435,4 +437,10 @@ input {
     height: 60px;
     border-radius: 85px;
     margin: 10px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
 }
