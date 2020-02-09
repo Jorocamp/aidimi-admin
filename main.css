@@ -344,7 +344,6 @@ p.msg-form {
     font-weight: normal;
     font-size: 16px;
     line-height: 19px;
-    vertical-align: bottom;
 }
 
 .sidebar-red-text {
@@ -353,7 +352,6 @@ p.msg-form {
     font-weight: normal;
     font-size: 16px;
     line-height: 19px;
-
     color: #FF3C5F;
 }
 
