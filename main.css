@@ -366,6 +366,10 @@ textarea {
     background-color: #f2f2f2;
 }
 
+.center {
+    margin: 7%;
+}
+
 .line {
     position: absolute;
     width: 100%;
@@ -403,11 +407,13 @@ input {
 .modal-size {
     width: 287px;
     height: 518px;
-
     background: #FFFFFF;
     border-radius: 25px;        
     overflow: hidden;
     overflow-y: scroll;
+    margin: 0 auto;
+    margin-top: 5%;
+
 }
 
 .modal-size::-webkit-scrollbar {
